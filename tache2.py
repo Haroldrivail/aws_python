@@ -1,3 +1,5 @@
+"""Module pour la gestion des tâches liées à l'organisation des données de mission."""
+
 import os
 
 # 1. Vérifions que le dossier mission_data/ existe. Si non, affichons une erreur.

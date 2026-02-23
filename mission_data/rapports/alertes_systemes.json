@@ -1,0 +1,7 @@
+{
+  "alertes": [
+    "Alerte détectée lors de la phase 'injection_trans_mars' (navigation : alerte_mineure)",
+    "Alerte détectée lors de la phase 'croisiere' (support_vie : alerte_mineure)",
+    "Alerte détectée lors de la phase 'approche_mars' (propulsion : alerte_mineure)"
+  ]
+}

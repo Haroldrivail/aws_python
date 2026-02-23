@@ -55,7 +55,10 @@
       "destination": "Orbite solaire",
       "date_lancement": "2027-01-22",
       "statut": "planifiée",
-      "equipage": ["Cmdt. Sofia Lindqvist", "Dr. Rashid Al-Farsi"],
+      "equipage": [
+        "Cmdt. Sofia Lindqvist",
+        "Dr. Rashid Al-Farsi"
+      ],
       "duree_jours": 365,
       "budget_millions_usd": 3100
     }

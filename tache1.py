@@ -1,3 +1,4 @@
+"""Module pour la gestion des tâches liées au journal de bord et aux alertes."""
 
 # 1. Ouvrons le fichier mission_data/journal_bord.txt en lecture.
 f = open('mission_data/journal_bord.txt', 'r', encoding='utf-8')
@@ -16,7 +17,7 @@ print(f"--- Alertes detectees ({len(lines_with_alerts)}) ---")
 for line in lines_with_alerts:
     print(line.strip())
 
-print(f"✅ Fichier 'alertes.txt' cree.")
+print("✅ Fichier 'alertes.txt' cree.")
 f.close()
 
 
