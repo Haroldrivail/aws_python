@@ -1,3 +1,5 @@
+"""Module pour la gestion des tâches liées aux missions."""
+
 import json
 
 # 1. Chargeons le fichier missions.json.
@@ -15,14 +17,15 @@ total_budget = sum(mission['budget_millions_usd'] for mission in missions["missi
 print(f"\nBudget total de toutes les missions: {total_budget} M$")
 
 # 4. Indiquons la mission la plus longue et la plus courte.
-longest_mission = None
-shortest_mission = None
+if missions["missions"]:
+    LONGEST_MISSION = missions["missions"][0]
+    SHORTEST_MISSION = missions["missions"][0]
 
-for mission in missions["missions"]:
-    if longest_mission is None or mission['duree_jours'] > longest_mission['duree_jours']:
-        longest_mission = mission
-    if shortest_mission is None or mission['duree_jours'] < shortest_mission['duree_jours']:
-        shortest_mission = mission
+    for mission in missions["missions"]:
+        if mission['duree_jours'] > LONGEST_MISSION['duree_jours']:
+            LONGEST_MISSION = mission
+        if mission['duree_jours'] < SHORTEST_MISSION['duree_jours']:
+            SHORTEST_MISSION = mission
 
-print(f"\nMission la plus longue : {longest_mission['nom']} avec {longest_mission['duree_jours']} jours")
-print(f"Mission la plus courte : {shortest_mission['nom']} avec {shortest_mission['duree_jours']} jours")
+    print(f"\nMission la plus longue : {LONGEST_MISSION['nom']} avec {LONGEST_MISSION['duree_jours']} jours")
+    print(f"Mission la plus courte : {SHORTEST_MISSION['nom']} avec {SHORTEST_MISSION['duree_jours']} jours")

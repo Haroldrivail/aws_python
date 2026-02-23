@@ -1,0 +1,14 @@
+Repertoire courant : /media/harold/Stockage/Projects/aws_python
+
+Variables d'environnement liees a Python ou PATH :
+GK_GL_PATH = /tmp/gitkraken/gitlens/gitlens-ipc-server-1124406-39857.json
+BUNDLED_DEBUGPY_PATH = /home/harold/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy
+PYTHONSTARTUP = /home/harold/.config/Code/User/workspaceStorage/4a9c80c1cc4a11fa231089e675fb5268/ms-python.python/pythonrc.py
+VSCODE_PYTHON_AUTOACTIVATE_GUARD = 1
+PYTHON_BASIC_REPL = 1
+PATH = /media/harold/Stockage/Projects/aws_python/venv/bin:/home/harold/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/harold/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/harold/.nvm/versions/node/v24.13.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/harold/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts
+
+Espace disque :
+Total : 488368 Mo
+Utilisé : 39908 Mo
+Libre : 448460 Mo
